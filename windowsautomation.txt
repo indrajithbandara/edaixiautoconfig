@@ -1,0 +1,1032 @@
+1.首先安装Xvfb :
+
+    sudo apt-get install Xvfb
+
+2.打开终端,执行:
+
+    Xvfb :99 -ac 2>/dev/null
+
+    export DISPLAY=:99    ( :99是上一条指令设置的端口对应到null )
+
+    注解:用来将X11的界面输出重置到null,也就是将测试程序启动的浏览器界面设置为不需显示.注意:本设置只在当前终端有效,所以执行程序也需要通过当前终端启动运行.
+
+3.这时候可以通过google-chrome命令启动浏览器测试.发现命令行输出了启动的信息,但是浏览器界面就没有出现了.说明你已经成功了使用了Xvfb...
+
+
+
+ubuntu headlesss chrome firefox firebug selenium
+jenkins CI   
+
+
+
+some performance testing commnadss for  my test windows system
+
+
+ubuntu@test12:~/guolaidong$ chmod -R 777 nmon_x86_64_ubuntu1004 
+ubuntu@test12:~/guolaidong$ ./nmon_x86_64_ubuntu1004 -fT -s 2 -c 60
+ubuntu@test12:~/guolaidong$ ls
+nmon_x86_64_ubuntu1004  test12_150907_1627.nmon
+ubuntu@test12:~/guolaidong$ scp /home/ubuntu/guolaidong/test12_150907_1627.nmon administrator@54.223.216.140:/c:/
+ssh: connect to host 54.223.216.140 port 22: Connection timed out
+lost connection
+ubuntu@test12:~/guolaidong$ history
+ 1040  sudo vi restart.txt 
+ 1041  touch restart.txt 
+ 1042  cd /data/www
+ 1043  ls
+ 1044  cd app/
+ 1045  ls
+ 1046  cd open_server/
+ 1047  ls
+ 1048  cd current
+ 1049  ls
+ 1050  cd app/api/
+ 1051  ls
+ 1052  cd v1
+ 1053  ls
+ 1054  sudo vi client_api.rb 
+ 1055  ls
+ 1056  sudo vi client_api.rb 
+ 1057  cd ..
+ 1058  cd tmp/
+ 1059  ls
+ 1060  touch restart.txt 
+ 1061  cd /data/www/app/api_server/current
+ 1062  tail -f log/production.log 
+ 1063  eixt
+ 1064  exit
+ 1065  cd /data/www/app/jiagongdian_api/
+ 1066  cd current
+ 1067  tail -f log/production.log 
+ 1068  eixt
+ 1069  exit
+ 1070  ls
+ 1071  cd /data/www/
+ 1072  ls
+ 1073  cd app/
+ 1074  cd api_server/
+ 1075  ls
+ 1076  cd current
+ 1077  ls
+ 1078  cd config/
+ 1079  ls
+ 1080  cd environments/
+ 1081  ls
+ 1082  cd ..
+ 1083  ls
+ 1084  vi database.yml 
+ 1085  ifconfig
+ 1086  ping www.baidu.com
+ 1087  ls
+ 1088  cd /data/www/app/jiagongdian_api/current/
+ 1089  ls
+ 1090  vi app/api/v3/jiagongdian_api.rb 
+ 1091  tail -f log/production.log 
+ 1092  exit
+ 1093  cd /data/www/app/jiagongdian_api/current
+ 1094  tail -f log/production.log 
+ 1095  exit
+ 1096  cd /data/www/app/jiagongdian_api/current
+ 1097  tail -f log/production.log 
+ 1098  exit
+ 1099  cd /data/www/app/jiagongdian_api/current
+ 1100  tail -f log/production.log 
+ 1101  exit
+ 1102  cd /data/www/app/jiagongdian_api/current
+ 1103  tail -f log/production.log 
+ 1104  exit
+ 1105  cd /data/www/app/jiagongdian_api/current
+ 1106  tail -f log/production.log 
+ 1107  exit
+ 1108  cd /data/www/app/jiagongdian_api/current
+ 1109  tail -f log/production.log 
+ 1110  vi app/api/v3/jiagongdian_api.rb 
+ 1111  exit
+ 1112  cd /data/www/app/jiagongdian_api/current
+ 1113  vi app/api/v3/jiagongdian_api.rb 
+ 1114  tail -f log/production.log 
+ 1115  exit
+ 1116  cd /data/www/app/jiagongdian_api/current
+ 1117  tail -f log/production.log 
+ 1118  exit
+ 1119  cd /data/www/app/jiagongdian_api/current
+ 1120  vi app/api/v3/jiagongdian_api.rb 
+ 1121  exit
+ 1122  cd /data/www/app/jiagongdian_api/current
+ 1123  tail -f log/production.log 
+ 1124  vi app/api/v3/jiagongdian_api.rb 
+ 1125  vi Gemfile
+ 1126  vi Gemfile.lock 
+ 1127  exit
+ 1128  cd /data/www/app/jiagongdian_api/current
+ 1129  bundle
+ 1130  bundle update
+ 1131  exit
+ 1132  rz
+ 1133  cd /data/www
+ 1134  ls
+ 1135  cd app/
+ 1136  ls
+ 1137  cd open_server/
+ 1138  ls
+ 1139  cd current
+ 1140  ls
+ 1141  cd app/
+ 1142  ls
+ 1143  cd a
+ 1144  cd api/
+ 1145  ls
+ 1146  cd v1
+ 1147  ls
+ 1148  vi client_api.rb 
+ 1149  cd /data/www/app/jiagongdian_api/current
+ 1150  ls
+ 1151  vi app/api/v3/jiagongdian_api.rb 
+ 1152  tail -f log/production.log 
+ 1153  exit
+ 1154  cd /data/www/app/api_server/
+ 1155  cd current
+ 1156  tail -f log/production.log 
+ 1157  cd ../../
+ 1158  cd jiagongdian_api/
+ 1159  cd current
+ 1160  ls
+ 1161  tail -f log/production.log 
+ 1162  exit
+ 1163  sudo iptables -l
+ 1164  sudo iptables -L
+ 1165  exit
+ 1166  cd /data/www/app/api_server/current/log/
+ 1167  tail -n 100 production.log 
+ 1168  tail -f production.log 
+ 1169  cd /data/www/app/jiagongdian_api/current/log/
+ 1170  tail -n 500 production.log 
+ 1171  cd ..
+ 1172  cd .
+ 1173  cd ..
+ 1174  cd api_server/current/log/
+ 1175  tail -n 500 production.log 
+ 1176  cd ..
+ 1177  cd jiagongdian_api/current/log/
+ 1178  tail -n 500 production.log 
+ 1179  cd ..
+ 1180  cd api_server/current/log/
+ 1181  tail -n 500 production.log 
+ 1182  cd ..
+ 1183  cd jiagongdian_api/current/log/
+ 1184  tail -n 500 production.log 
+ 1185  tail -f production.log 
+ 1186  cd /opt/nginx/nginx/
+ 1187  cd sbin
+ 1188  ls
+ 1189  sudo killall -9 nginx
+ 1190  sudo ./nginx
+ 1191  ls
+ 1192  ps -ef|grep nginx
+ 1193  sudo killall -9 nginx
+ 1194  sudo vim /etc/hosts
+ 1195  ps -ef|grep nginx
+ 1196  sudo killall -9 nginx
+ 1197  ps -ef|grep nginx
+ 1198  sudo ./nginx
+ 1199  ps -ef|grep nginx
+ 1200  sudo killall -9 nginx
+ 1201  ps -ef|grep nginx
+ 1202  sudo ./nginx
+ 1203  top
+ 1204  ls
+ 1205  cd ..
+ 1206  ls
+ 1207  cd /data/www
+ 1208  ls
+ 1209  cd app/
+ 1210  ls
+ 1211  cd jiagongdian_api/
+ 1212  ls
+ 1213  cd current
+ 1214  ls
+ 1215  cd log
+ 1216  ls
+ 1217  vi production.log 
+ 1218  cd ..
+ 1219  cd app/
+ 1220  cd api/
+ 1221  ls
+ 1222  cd v3
+ 1223  ls
+ 1224  vi jiagongdian_api.rb 
+ 1225  ls
+ 1226  sudo vi jiagongdian_api.rb 
+ 1227  cd ..
+ 1228  cd tmp/
+ 1229  touch restart.txt 
+ 1230  cd ..
+ 1231  cd log
+ 1232  ls
+ 1233  vi production.log 
+ 1234  ls
+ 1235  vi production.log 
+ 1236  cd ..
+ 1237  ls
+ 1238  cd c
+ 1239  cd config/
+ 1240  ls
+ 1241  cd environments/
+ 1242  ls
+ 1243  vi production.rb 
+ 1244  ls
+ 1245  vi production.rb 
+ 1246  cd ..
+ 1247  cd lo
+ 1248  cd log
+ 1249  ls
+ 1250  cd ..
+ 1251  cd log
+ 1252  ls
+ 1253  vi sidekiq.log 
+ 1254  ls
+ 1255  vi notify.log 
+ 1256  top
+ 1257  ls
+ 1258  vi production.log 
+ 1259  ls
+ 1260  vi notify.log 
+ 1261  cd /etc/my.cnf
+ 1262  vi /etc/my.cnf
+ 1263  find / -name my.cnf
+ 1264  sudo find / -name my.cnf
+ 1265  vi /etc/mysql/my.cnf
+ 1266  mysql -utestuser -p
+ 1267  vi /etc/mysql/my.cnf
+ 1268  sudo vi /etc/mysql/my.cnf
+ 1269  ls
+ 1270  ps -ef|grep mysql
+ 1271  netstat -tunlp
+ 1272  ps -ef|grep mysql
+ 1273  sudo kill -9 1209
+ 1274  ps -ef|grep mysql
+ 1275  ls
+ 1276  whereis mysql
+ 1277  cd /usr/bin/
+ 1278  ls
+ 1279  cd mysql
+ 1280  log-slow-queries=/var/lib/mysql/slowquery.log 
+ 1281  service mysql stop 
+ 1282  ps -ef|grep mysql
+ 1283  service mysql stop 
+ 1284  service mysql restart
+ 1285  cd /usr/
+ 1286  ls
+ 1287  server mysql stop
+ 1288  service mysql stop
+ 1289  ls
+ 1290  cd /data/www
+ 1291  ls
+ 1292  cd app/
+ 1293  ls
+ 1294  cd jiagongdian_api/
+ 1295  ls
+ 1296  cd current
+ 1297  ls
+ 1298  cd config/
+ 1299  ls
+ 1300  cd ..
+ 1301  cd app/
+ 1302  cd api/
+ 1303  ls
+ 1304  cd v3
+ 1305  ls
+ 1306  vi jiagongdian_api.rb 
+ 1307  cd ..
+ 1308  cd log
+ 1309  ls
+ 1310  vi development.log 
+ 1311  ls\
+ 1312  ls
+ 1313  vi production.log 
+ 1314  ls
+ 1315  vi sidekiq.log 
+ 1316  ls
+ 1317  vi notify.log 
+ 1318  date
+ 1319  vi notify.log 
+ 1320  date
+ 1321  vi notify.log 
+ 1322  cd /etc/mysql/my.cnf
+ 1323  vi /etc/mysql/my.cnf
+ 1324  sudo vi /etc/mysql/my.cnf
+ 1325  sudo service mysql stop
+ 1326  sudo service mysql start
+ 1327  sudo vi /etc/mysql/my.cnf
+ 1328  top
+ 1329  vi /etc
+ 1330  vi /etc/mysql/my.cnf
+ 1331  vi /usr/slowquery.log
+ 1332  iostat -x
+ 1333  sudo apt-get install sysstat
+ 1334  iostat -x
+ 1335  vi /etc/mysql/my.cnf
+ 1336  sudo vi /etc/mysql/my.cnf
+ 1337  cd /usr
+ 1338  ls
+ 1339  mkdir slowquery.log
+ 1340  sudo mkdir slowquery.log
+ 1341  vi slowquery.log/
+ 1342  rm -f slowquery.log/
+ 1343  sudo rm -f slowquery.log/
+ 1344  sudo rm -f slowquery.log
+ 1345  ls
+ 1346  cd /usr/local/
+ 1347  ls
+ 1348  sudo vi /etc/mysql/my.cnf
+ 1349  vi slowquery.log
+ 1350  ls
+ 1351  sudo touch slowquery.log
+ 1352  ls
+ 1353  vi slowquery.log 
+ 1354  sudo chmod 777 slowquery.log 
+ 1355  to
+ 1356  top
+ 1357  vi slowquery.log 
+ 1358  top
+ 1359  iostat -x
+ 1360  vi /usr/local/slowquery.log 
+ 1361  cd /data/www
+ 1362  ls
+ 1363  cd app/
+ 1364  ls
+ 1365  cd jiagongdian_api/
+ 1366  ls
+ 1367  cd current
+ 1368  ls
+ 1369  cd log
+ 1370  ls
+ 1371  vi production.log 
+ 1372  ls
+ 1373  cd ..
+ 1374  cd config/
+ 1375  ls
+ 1376  cd environments/
+ 1377  ls
+ 1378  vi production.rb 
+ 1379  ls
+ 1380  cd ..
+ 1381  cd lo
+ 1382  cd ..
+ 1383  cd log
+ 1384  ls
+ 1385  vi development.log 
+ 1386  ls
+ 1387  vi notify.log 
+ 1388  ls
+ 1389  vi sidekiq.log 
+ 1390  top
+ 1391  cd /opt
+ 1392  cd nginx/
+ 1393  ls
+ 1394  cd nginx/
+ 1395  ls
+ 1396  cd sbin
+ 1397  sudo killall -9 nginx
+ 1398  sudo ./nginx
+ 1399  sudo killall -9 nginx
+ 1400  sudo ./nginx
+ 1401  ls
+ 1402  cd log
+ 1403  ls
+ 1404  top
+ 1405  cd ..
+ 1406  cd /data/www
+ 1407  ls
+ 1408  cd app/
+ 1409  ls
+ 1410  cd jiagongdian_api/
+ 1411  ls
+ 1412  cd current
+ 1413  ls
+ 1414  cd log
+ 1415  ls
+ 1416  vi production.log 
+ 1417  vi /usr/local/slowquery.log 
+ 1418  mysql -utestuser -p
+ 1419  vi /usr/slowquery.log/
+ 1420  cd /usr
+ 1421  ls
+ 1422  cd slowquery.log/
+ 1423  cd ..
+ 1424  service mysql stop
+ 1425  sudo service mysql stop
+ 1426  sudo service mysql start
+ 1427  mysql -utestuser -p
+ 1428  cd /usr/local/
+ 1429  ls
+ 1430  vi slowquery.log 
+ 1431  vi /usr/local/slowquery.log 
+ 1432  top
+ 1433  vi /usr/local/slowquery.log 
+ 1434  history
+ 1435  ll
+ 1436  pwd
+ 1437  ps -ef|grep mysql
+ 1438  kill -9 19787
+ 1439  sudo kill -9 19787
+ 1440  ps -ef|grep mysql
+ 1441  service mysql stop
+ 1442  service mysqld stop
+ 1443  cd /etc/
+ 1444  ls
+ 1445  cd init.d/
+ 1446  ls
+ 1447  mysql stop
+ 1448  ifconfig
+ 1449  ll
+ 1450  pwd
+ 1451  ll
+ 1452  cd /data/www
+ 1453  ls
+ 1454  cd app/
+ 1455  ls
+ 1456  cd jiagongdian_api/
+ 1457  ls
+ 1458  cd current
+ 1459  ls
+ 1460  cd app/
+ 1461  cd api/
+ 1462  ls
+ 1463  cd v3
+ 1464  ls
+ 1465  sudo vi jiagongdian_api.rb 
+ 1466  cd ..
+ 1467  cd tmp/
+ 1468  touch restart.txt 
+ 1469  cd ..
+ 1470  ls
+ 1471  cd config/
+ 1472  ls
+ 1473  cd cd environments/
+ 1474  ls
+ 1475  vi production.rb 
+ 1476  sudo vi production.rb 
+ 1477  cd ..
+ 1478  ls
+ 1479  cd tmp/
+ 1480  ls
+ 1481  touch restart.txt 
+ 1482  cd ..
+ 1483  cd log
+ 1484  l
+ 1485  ls
+ 1486  cd /opt/
+ 1487  ls
+ 1488  cd nginx/
+ 1489  ls
+ 1490  cd nginx/
+ 1491  ls
+ 1492  cd conf/
+ 1493  ls
+ 1494  vi sites-enabled/
+ 1495  cd sites-enabled/
+ 1496  ls
+ 1497  vi jiagongdian.conf 
+ 1498  sudo vi jiagongdian.conf 
+ 1499  cd ..
+ 1500  cd sbin/
+ 1501  ls
+ 1502  sudo killall -9 nginx
+ 1503  history
+ 1504  top
+ 1505  cd /data/www
+ 1506  ls
+ 1507  cd app/
+ 1508  ls
+ 1509  cd jiagongdian_api/
+ 1510  ls
+ 1511  cd current
+ 1512  ls
+ 1513  cd app/api/
+ 1514  ls
+ 1515  cd v3
+ 1516  ls
+ 1517  vi jiagongdian_api.rb 
+ 1518  top
+ 1519  cd /data/www/app/jiagongdian_api/current/log/
+ 1520  ls
+ 1521  tail -n 1000 sidekiq.log 
+ 1522  exit
+ 1523  cd /data/www/app/jiagongdian_api/current/log/
+ 1524  cd .
+ 1525  cd ..
+ 1526  rails c production
+ 1527  exit
+ 1528  redis-cli 
+ 1529  cd /data/www/app/jiagongdian_api/current/log/
+ 1530  tail -n 500 sidekiq.log 
+ 1531  cd ..
+ 1532  cd api_server/current/log/
+ 1533  tail -f production.log 
+ 1534  cd /data/www/app/jiagongdian_api/current/log/
+ 1535  tail -f production.log 
+ 1536  ps -ef|grep si
+ 1537  cd /data/www/app/jiagongdian_api/
+ 1538  cd current
+ 1539  ls
+ 1540  tail -n 5000 log/production.log 
+ 1541  ip a
+ 1542  exit
+ 1543  cd /data/www/app/api_server/current/
+ 1544  rails c production
+ 1545  exit
+ 1546  cd /data/www/app/api_server/current/log/
+ 1547  ls
+ 1548  tail -n 1000 production.log 
+ 1549  tail -n 1000 production.log  | grep dabao
+ 1550  tail -n 5000 production.log  | grep dabao
+ 1551  tail -n 5000 production.log  | grep shangjia
+ 1552  tail -n 1000 production.log 
+ 1553  cd ..
+ 1554  cd current
+ 1555  rails c production
+ 1556  cd log/
+ 1557  tail -n 1000 production.log 
+ 1558  vi 
+ 1559  tail -f production.log 
+ 1560  cd /data/www/app/jiagongdian_api/
+ 1561  ls
+ 1562  cd shared/
+ 1563  ls
+ 1564  tar -jcf config.tar.gz config 
+ 1565  ls
+ 1566  sz config.tar.gz 
+ 1567  cd /opt/nginx/nginx/conf/
+ 1568  ls
+ 1569  cd sites-enabled/
+ 1570  ls
+ 1571  cat jiagongdian.conf 
+ 1572  more /etc/sysctl.conf 
+ 1573  ls
+ 1574  lsof -i:8080
+ 1575  cd /etc/nginx/co
+ 1576  cd /opt/nginx/nginx/conf/
+ 1577  ls
+ 1578  more nginx.conf
+ 1579  ;s
+ 1580  ls
+ 1581  more api_server.conf 
+ 1582  more customer_feedback.conf 
+ 1583  lsof -i:81
+ 1584  more edaixi.conf 
+ 1585  ls
+ 1586  more engine.conf 
+ 1587  lsof -i:9000
+ 1588  ls
+ 1589  more faye.conf 
+ 1590  cat /etc/crontab 
+ 1591  ls /etc/cron.daily/
+ 1592  ls /etc/cron.weekly/
+ 1593  ls /etc/cron.monthly/
+ 1594  cd /etc/cron.weekly/
+ 1595  ls
+ 1596  strings man-db 
+ 1597  cd /etc/apt/
+ 1598  ls
+ 1599  cd sources.list.d/
+ 1600  ls
+ 1601  sudo add-apt-repository ppa:saltstack/salt
+ 1602  sudo apt-get install python-software-properties
+ 1603  sudo apt-get update
+ 1604  sudo apt-get install salt-minion
+ 1605  vi /etc/salt/minion
+ 1606  ps aux|grep salt
+ 1607  sudo /etc/init.d/salt-minion stop
+ 1608  ps aux|grep salt
+ 1609  sudo kill -9 6442
+ 1610  ps aux|grep salt
+ 1611  sudo /etc/init.d/salt-minion start
+ 1612  exit
+ 1613  sudo apt-get install libpam-ldap libnss-ldap
+ 1614  ps aux|grep sncd
+ 1615  sudo apt-get install nscd
+ 1616  sudo service nscd stop
+ 1617  sudo service nscd start
+ 1618  ps aux|grep nscd
+ 1619  date
+ 1620  su - caoxh
+ 1621  cd /etc/
+ 1622  sudo cp profile profile.bak
+ 1623  exit
+ 1624  ls
+ 1625  top
+ 1626  exit
+ 1627  vi /etc/ldap.conf 
+ 1628  sudo service nscd restart
+ 1629  ssh test05
+ 1630  exit
+ 1631  vi /etc/zabbix/zabbix_agentd.conf.d/chkpassenger.conf 
+ 1632  exit
+ 1633  cd /etc/nginx/
+ 1634  ls
+ 1635  exit
+ 1636  cd /etc/nginx/
+ 1637  ls
+ 1638  exit
+ 1639  cd /data/www/app/api_server/
+ 1640  tail -f current/log/production.log 
+ 1641  rvmsudo passenger-status
+ 1642  exit
+ 1643  cd /data/www/app/api_server/
+ 1644  tail -f current/log/production.log 
+ 1645  rvmsudo passenger-status
+ 1646  ls
+ 1647  rvmsudo passenger-status
+ 1648  exit
+ 1649  cd /data/www/app/open_server/current/log/
+ 1650  tail -f production.log 
+ 1651  cd /data/www/app/jiagongdian_api/current
+ 1652  tail -f log/production.log 
+ 1653  cd ..
+ 1654  cd shared/
+ 1655  ls
+ 1656  cd config/
+ 1657  ls
+ 1658  cd settings/
+ 1659  ls
+ 1660  vi production.yml 
+ 1661  cd ..
+ 1662  tail -f log/pro
+ 1663  cd current
+ 1664  tail -f log/production.log 
+ 1665  exit
+ 1666  cd /data/www/app/jiagongdian_api/current
+ 1667  tail -f log/production.log 
+ 1668  exit
+ 1669  cd /data/www/app/jiagongdian_api/current
+ 1670  tail -f log/production.log 
+ 1671  rails c
+ 1672  rails c production
+ 1673  cd ..
+ 1674  cd shared/
+ 1675  ls
+ 1676  cd config/
+ 1677  ls
+ 1678  cd initializers/
+ 1679  ls
+ 1680  vi zombie_conf.rb 
+ 1681  cd ../
+ 1682  cd ops/shared/
+ 1683  ls
+ 1684  cd config/
+ 1685  ls
+ 1686  cd initializers/
+ 1687  ls
+ 1688  vi zombie
+ 1689  vi zombie_conf.rb 
+ 1690  exit
+ 1691  cd /data/www/app/jiagongdian_api/current
+ 1692  rails c production
+ 1693  exit
+ 1694  cd /data/www/app/ops/shared/config/initializers/
+ 1695  ls
+ 1696  vi zombie.rb 
+ 1697  vi zombie_
+ 1698  vi zombie_conf.rb 
+ 1699  exit
+ 1700  cd /data/www/app/jiagongdian_api/shared/config/settings/
+ 1701  vi production.yml 
+ 1702  cd ..
+ 1703  cd ops/current/
+ 1704  tail -f log/production.log 
+ 1705  ifconfig
+ 1706  tail -f log/production.log 
+ 1707  exit
+ 1708  cd /data/www/app/jiagongdian_api/
+ 1709  cd current
+ 1710  tail -f log/rpo
+ 1711  tail -f log/production.log 
+ 1712  exit
+ 1713  cd /data/www/app/jiagongdian_api/
+ 1714  cd current
+ 1715  tail -f log/production.log 
+ 1716  rails c production
+ 1717  tail -f log/production.log 
+ 1718  exit
+ 1719  cd /data/www/app/jiagongdian_api/current
+ 1720  tail -f log/production.log 
+ 1721  exit
+ 1722  cd /data/www/app/jiagongdian_api/current
+ 1723  tail -f log/production.log 
+ 1724  vi app/api/v3/jiagongdian_api.rb 
+ 1725  exit
+ 1726  cd /data/www/app/jiagongdian_api/current
+ 1727  vi app/api/v3/jiagongdian_api.rb 
+ 1728  tail -f log/production.log 
+ 1729  rails c production
+ 1730  tail -f log/production.log 
+ 1731  exit
+ 1732  cd /data/www/app/jiagongdian_api/current
+ 1733  vi app/api/v3/jiagongdian_api.rb 
+ 1734  tail -f log/production.log 
+ 1735  exit
+ 1736  cd /data/www/app/jiagongdian_api/current
+ 1737  rails c production
+ 1738  tail -f log/production.log 
+ 1739  rails c production
+ 1740  cd /data/www/app/ops/current/
+ 1741  tail -f log/production.log 
+ 1742  exit
+ 1743  cd /data/www/app/ops/current/public/
+ 1744  ls
+ 1745  cd outlet/
+ 1746  ls
+ 1747  cd update/
+ 1748  ls
+ 1749  cd38
+ 1750  cd 38
+ 1751  cd ..
+ 1752  rails c production
+ 1753  cd public/outlet/update/11
+ 1754  ls
+ 1755  cd original/
+ 1756  ls
+ 1757  unzip wash.zip 
+ 1758  sudo apt-get install unzip
+ 1759  unzip wash.zip 
+ 1760  ls
+ 1761  cd ..
+ 1762  rails c production
+ 1763  cd public/outlet/update/11/original/Wav/
+ 1764  ls
+ 1765  cd /data/www
+ 1766  ls
+ 1767  cd app/
+ 1768  ls
+ 1769  cd jiagongdian_api/
+ 1770  ls
+ 1771  cd current
+ 1772  ls
+ 1773  cd app/api/
+ 1774  ls
+ 1775  cd v3
+ 1776  ls
+ 1777  sudo vi jiagongdian_api.rb 
+ 1778  ls
+ 1779  sudo vi api_helper.rb 
+ 1780  vi jiagongdian_api.rb 
+ 1781  sudo vi jiagongdian_api.rb 
+ 1782  cd /opt/nginx/nginx/sbin
+ 1783  sudo killall -9 nginx 
+ 1784  sudo ./nginx
+ 1785  top
+ 1786  sudo killall -9 nginx 
+ 1787  sudo ./nginx
+ 1788  sudo killall -9 nginx 
+ 1789  sudo ./nginx
+ 1790  cd /data/www
+ 1791  ls
+ 1792  cd app/api_server/
+ 1793  cd ..
+ 1794  ls
+ 1795  cd jiagongdian_api/
+ 1796  ls
+ 1797  cd current
+ 1798  ls
+ 1799  cd app/api/
+ 1800  ls
+ 1801  cd v3
+ 1802  ls
+ 1803  sudo vi jiagongdian_api.rb 
+ 1804  cd ..
+ 1805  cd tmp/
+ 1806  ls
+ 1807  touch restart.txt 
+ 1808  cd /opt/nginx/nginx/sbin
+ 1809  sudo killall -9 nginx 
+ 1810  sudo ./nginx
+ 1811  cd /data/www
+ 1812  ls
+ 1813  cd app/
+ 1814  cd jiagongdian_api/
+ 1815  ls
+ 1816  cd current
+ 1817  ls
+ 1818  cd app/api/
+ 1819  ls
+ 1820  cd v3
+ 1821  ls
+ 1822  sudo vi jiagongdian_api.rb 
+ 1823  cd ..
+ 1824  cd tmp/
+ 1825  touch restart.txt 
+ 1826  ccd ..
+ 1827  cd ...
+ 1828  cd ..
+ 1829  ls
+ 1830  cd app/api/
+ 1831  ls
+ 1832  cd v3
+ 1833  ls
+ 1834  vi jiagongdian_api.rb 
+ 1835  cd /opt/nginx/nginx/sbin
+ 1836  sudo killall -9 nginx 
+ 1837  sudo ./nginx
+ 1838  cd /data/www
+ 1839  ls
+ 1840  cd app/
+ 1841  ls
+ 1842  cd jiagongdian_api/
+ 1843  ls
+ 1844  cd current
+ 1845  ls
+ 1846  cd log
+ 1847  ls
+ 1848  vi sidekiq.log 
+ 1849  date
+ 1850  ls
+ 1851  vi production.log 
+ 1852  ls
+ 1853  vi notify.log 
+ 1854  top
+ 1855  cd ..
+ 1856  l
+ 1857  ls
+ 1858  cd app/api/
+ 1859  ls
+ 1860  cd v3
+ 1861  ls
+ 1862  sudo vi jiagongdian_api.rb 
+ 1863  cd /opt/nginx/nginx/sbin
+ 1864  sudo killall -9 nginx 
+ 1865  sudo ./nginx
+ 1866  top
+ 1867  cd /data/www/app/jiagongdian_api/current
+ 1868  tail -f log/production.log 
+ 1869  cd ..
+ 1870  cd ops/current
+ 1871  tail -f log/production.log 
+ 1872  cd /data/www/app/jiagongdian_api/current
+ 1873  tail -f log/production.log 
+ 1874  exit
+ 1875  cd /data/www/app/jiagongdian_api/current
+ 1876  tail -f log/production.log 
+ 1877  cd /data/www/app/
+ 1878  cd jiagongdian_api/shared/
+ 1879  ls
+ 1880  cd log/
+ 1881  ls
+ 1882  tail -f production.log 
+ 1883  exit
+ 1884  ls
+ 1885  cd /data/www/app/jiagongdian_api/
+ 1886  ls
+ 1887  ll
+ 1888  cd /data/log/nginx/
+ 1889  ls
+ 1890  ll
+ 1891  cd ..
+ 1892  ll
+ 1893  tail error.log 
+ 1894  tail -n 1000 error.log 
+ 1895  ls
+ 1896  cd /data/www/app/jiagongdian_api/
+ 1897  ls
+ 1898  cd shared/
+ 1899  ls
+ 1900  cd config/
+ 1901  ls
+ 1902  cat database.yml 
+ 1903  ls
+ 1904  more /opt/nginx/nginx/conf/sites-enabled/jiagongdian.conf 
+ 1905  ls
+ 1906  cd ..
+ 1907  sl
+ 1908  ls
+ 1909  cd config/
+ 1910  ls
+ 1911  cat database.yml 
+ 1912  sudo passenger-status 
+ 1913  sudo sudo passenger-status 
+ 1914  rvmsudo passenger-status 
+ 1915  cd /data/log/
+ 1916  ls
+ 1917  vi error.log 
+ 1918  cd /data/www/app/
+ 1919  cd sh
+ 1920  cd jiagongdian_api/
+ 1921  ls
+ 1922  cd shared/
+ 1923  ls
+ 1924  vi config/database.yml 
+ 1925  cd ../current
+ 1926  touch  tmp/restart.txt 
+ 1927  rvmsudo passenger-status
+ 1928  tail -f /data/log/error.log 
+ 1929  tail -f log/production.log 
+ 1930  vi  log/production.log 
+ 1931  cd ..
+ 1932  cd shared/
+ 1933  ls
+ 1934  cd config/
+ 1935  ls
+ 1936  cd initializers/
+ 1937  ls
+ 1938  cat zombie_conf.rb 
+ 1939  ls
+ 1940  cd ..
+ 1941  ls
+ 1942  cd ..
+ 1943  cd log/
+ 1944  ls
+ 1945  vi production.log 
+ 1946  cd ..
+ 1947  cd current
+ 1948  ls
+ 1949  cd config/initializers/
+ 1950  ls
+ 1951  cat zombie_conf
+ 1952  cat zombie_conf.rb 
+ 1953  cd ..
+ 1954  cd csh
+ 1955  cd shared/
+ 1956  ls
+ 1957  cd config/
+ 1958  ls
+ 1959  find . -type f |xargs  grep 80
+ 1960  cd ..
+ 1961  cd cu
+ 1962  cd ../current
+ 1963  find . -type f |xargs  grep 80
+ 1964  cd config/initializers/
+ 1965  ls
+ 1966  rm zombie_conf.rb 
+ 1967  cd ..
+ 1968  touch  tmp/restart.txt 
+ 1969  tail -f log/production.log 
+ 1970  cd ..
+ 1971  cd current
+ 1972  tail -f log/production.log 
+ 1973  ls
+ 1974  cd config/initializers/
+ 1975  ls
+ 1976  vi zombie_config.rb 
+ 1977  cd /data/www/app/
+ 1978  s
+ 1979  ls
+ 1980  cd jiagongdian_api/
+ 1981  ls
+ 1982  cd current
+ 1983  ls
+ 1984  cd config/
+ 1985  ls
+ 1986  cd initializers/
+ 1987  ks
+ 1988  ls
+ 1989  cat zombie_conf.rb 
+ 1990  cat sidekiq.rb 
+ 1991  ll
+ 1992  cd ..
+ 1993  cd ../../
+ 1994  cd shared/
+ 1995  ls
+ 1996  cd config/
+ 1997  ls
+ 1998  cd initializers/
+ 1999  ls
+ 2000  rz
+ 2001  ls
+ 2002  df -h
+ 2003  mkdir guolaidong
+ 2004  ls
+ 2005  cd guolaidong
+ 2006  rz
+ 2007  ls
+ 2008  tar -xzf nmon4aix_11e.tar.gz 
+ 2009  ls
+ 2010  cd nmon
+ 2011  ./configure
+ 2012  ll
+ 2013  rm nmon
+ 2014  rm nmon_aix51 
+ 2015  ls
+ 2016  rm nmon_aix52ml2 
+ 2017  rm nmon_aix52ml5 
+ 2018  rm nmon_aix53 
+ 2019  rm README_v11.txt 
+ 2020  ls
+ 2021  tar -zxvf nmon4aix_11e.tar.gz 
+ 2022  ./configure
+ 2023  make
+ 2024  cd nmon
+ 2025  ls
+ 2026  rm nmon*
+ 2027  ls
+ 2028  rm README_v11.txt 
+ 2029  ls
+ 2030  uname -a
+ 2031  cat /etc/issue
+ 2032  rz
+ 2033  ls
+ 2034  ./nmon_x86_64_ubuntu1004 -fT -s 2 -c 60
+ 2035  chmod -R 777 nmon_x86_64_ubuntu1004 
+ 2036  ./nmon_x86_64_ubuntu1004 -fT -s 2 -c 60
+ 2037  ls
+ 2038  scp /home/ubuntu/guolaidong/test12_150907_1627.nmon administrator@54.223.216.140:/c:/
+ 2039  history

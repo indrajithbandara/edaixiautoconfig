@@ -1,0 +1,6 @@
+mysqlhostname,wuliu05.edaixi.cn
+mysqlusername,testuser
+mysqlpassword,testedaixi
+mysqldatabase,rongchain04
+hearurl,open13.edaixi.cn
+contenturl,/client/v1/create_address
